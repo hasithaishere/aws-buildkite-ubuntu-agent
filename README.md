@@ -33,7 +33,7 @@ docker build -t aws-buildkite-ubuntu-agent .
 To run the Buildkite Agent container locally, use the following command:
 
 ``` sh
-docker run -d -t --name buildkite-agent aws-buildkite-ubuntu-agent:latest start --token "<REPLACE-FROM-YOUR-TOKEN>"
+docker run -d -t --name buildkite-agent hasithaishere/aws-buildkite-ubuntu-agent:latest start --token "<REPLACE-FROM-YOUR-TOKEN>"
 ```
 
 Make sure you replace the image tag with the appropriate version if needed. Also add 
