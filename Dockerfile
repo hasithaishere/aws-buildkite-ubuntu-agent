@@ -1,4 +1,4 @@
-FROM buildkite/agent:ubuntu
+FROM buildkite/agent:3-ubuntu
 
 WORKDIR /home/buildkite-agent
 
